@@ -140,12 +140,19 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 ![](scr/zone-ya.jpg)
 
 ### Использование HTTPS 
+
 Для того чтобы испольовать защищённое подключение к нашему сайту надо получить SSL|TLS сертификат. Для это можно использовать 
+
 утилиты openssl или Let’s Encrypt (Certbot) 
+
 sudo apt install snapd
+
 sudo snap install --classic certbot
+
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
+
 sudo certbot certonly --standalone
+
 -------------
 
 http://ks54op6.ru
